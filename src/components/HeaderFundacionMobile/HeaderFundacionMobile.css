@@ -1,0 +1,125 @@
+.headerFundacionMobile {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 35px;
+    gap: 25px;
+    background-color: var(--white);
+}
+.header--menu__donar button a {
+    padding: 5px 25px;
+    font-size: 1.2rem;
+    color: var(--white);
+    text-decoration: none;
+    cursor: pointer;
+}
+.headerFundacionMobile .header--menu__logo {
+    justify-content: flex-start;
+}
+.headerFundacionMobile .header--menu__logo img {
+    min-width: 200px;
+    width: 100%;
+    max-width: 250px;
+}
+
+.headerFundacionMobile nav ul .diferente{
+    font-weight: 700;
+    font-size: 1.8rem;
+    background-color: var(--orange);
+    padding: 11px 15px;
+    border-radius: 5px;
+    margin-top: -15px;
+}
+
+.headerFundacionMobile nav ul .diferente a {
+    color: var(--white);
+}
+
+.headerFundacionMobile .nav--fundacion {
+    width: 100vw;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 24px;
+
+    padding: 0px 50px;
+}
+
+.headerFundacionMobile ul li {
+    list-style: none;
+}
+
+.headerFundacionMobile ul a{
+    font-weight: bold;
+    font-size: 1.6rem;
+    color: var(--blue);
+    text-decoration: none;
+    cursor: pointer;
+}
+.headerFundacionMobile ul a:hover{
+    border-bottom: 2px solid var(--blue);
+}
+
+
+/* Hero Styles */
+.headerFundacionMobile .fundacion--image img {
+    width: 100vw;
+    min-width: 200px;
+    max-height: 56vh;
+    object-fit: cover;
+}
+.headerFundacionMobile .filtro{
+    position: absolute;
+    left: 0px;
+    width: 100vw;
+    height: 100%;
+    min-width: 200px;
+    max-height: 67vw;
+    background-color: #2e286873;
+}
+.headerFundacionMobile .fundacion--image h2 {
+    z-index: 2;
+    position: absolute;
+    margin-top: 3vh;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--white);
+}
+.headerFundacionMobile .opciones--fundacion {
+    z-index: 2;
+    position: absolute;
+    bottom: 5%;
+    min-width: 100vw;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    flex-wrap: wrap;
+    max-width: 525px;
+}
+.headerFundacionMobile .fundacion--image a {
+    padding: 10px 15px;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    background-color: var(--blue);
+    color: var(--white);
+    text-decoration: none;
+    border-radius: 50px;
+}
+.headerFundacionMobile .fundacion--image a.orang {
+    padding: 10px 15px;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    background-color: var(--orange);
+    color: var(--white);
+    text-decoration: none;
+    border-radius: 50px;
+}

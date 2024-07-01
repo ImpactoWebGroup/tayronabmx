@@ -1,0 +1,17 @@
+.valueIcon {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.valueIcon svg {
+    color: var(--blue);
+    font-size: 3rem;
+    font-weight: bold;
+}
+.valueIcon p {
+    color: var(--blue);
+    font-size: 3rem;
+    font-weight: bold;
+}

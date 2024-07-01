@@ -1,0 +1,19 @@
+.categoria {
+    padding: 2px 5px;
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+    color: var(--blue);
+    background-color: var(--white);
+    border: 3px solid var(--blue);
+    border-radius: 4px;
+    cursor: pointer;
+}
+.categoria p {
+    text-align: center;
+}
+.categoryActive {
+    color: var(--white);
+    background-color: var(--blue);
+    text-align: center;
+}

@@ -1,0 +1,17 @@
+.step {
+    width: 100%;
+    max-width: 480px;
+    min-width: 300px;
+    padding: 10px 25px;
+    box-shadow: 0px 0px 40px rgba(57, 40, 166, 0.15);
+    border-radius: 5px;
+}
+.step h3 {
+    color: var(--dark);
+    font-size: 3rem;
+    font-weight: bold;
+}
+.step p {
+    color: var(--dark);
+    font-size: 1.5rem;
+}

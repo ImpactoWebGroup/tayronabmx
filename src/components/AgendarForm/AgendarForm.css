@@ -1,0 +1,89 @@
+.agendarForm {
+    width: 100%;
+    min-width: 300px;
+    max-width: 400px;
+    padding: 25px;
+    border-radius: 40px;
+    border: 5px solid var(--orange);
+}
+.agendarForm h2 {
+    color: var(--orange);
+    font-size: 5rem;
+    font-weight: bold;
+}
+.agendarForm form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.agendarForm form label {
+    margin-top: 25px;
+    color: var(--dark);
+    font-size: 2rem;
+    font-weight: bold;
+}
+.agendarForm form input {
+    width: 100%;
+    padding: 10px;
+    font-size: 1.2rem;
+    border: 2px solid var(--dark);
+    border-radius: 15px;
+}
+.agendarForm .agendarForm--agenda {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+.agendarForm--agenda__campos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.agendarForm .agendarForm--agenda label {
+    margin: 0 auto;
+    margin-top: 25px;
+    color: var(--dark);
+    font-size: 2rem;
+    font-weight: bold;
+}
+.agendarForm .agendarForm--agenda input {
+    width: 155px;
+    padding: 10px;
+    font-size: 1.2rem;
+    border: 2px solid var(--dark);
+    border-radius: 15px;
+}
+.agendarForm form textarea {
+    width: 100%;
+    height: 120px;
+    padding: 10px;
+    font-size: 1.2rem;
+    border: 2px solid var(--dark);
+    border-radius: 15px;
+}
+.agendarForm form button {
+    width: 250px;
+    padding: 10px;
+    margin: 25px auto;
+    background-color: var(--orange);
+    color: var(--white);
+    font-size: 2rem;
+    font-weight: bold;
+    border: none;
+    box-shadow: 0px 7.5px 20px rgba(217, 35, 28, 0.5);
+    border-radius: 50px;
+    cursor: pointer;
+    text-align: center;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+    }
+input[type=number] { -moz-appearance:textfield; }

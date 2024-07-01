@@ -1,0 +1,25 @@
+.memberResults {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--white);
+}
+.memberResults p {
+    width: 50px;
+    color: #334155;
+    font-size: 1rem;
+    text-align: center;
+}
+.memberResults div {
+    width: 85px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.memberResultsActive {
+    background-color: rgba(46, 40, 104, 0.9);
+}
+.memberResultsActive p {
+    color: var(--white);
+}

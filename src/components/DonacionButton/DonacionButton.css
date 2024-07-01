@@ -1,0 +1,13 @@
+.donacion--form button {
+    padding: 15px 25px;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: var(--blue);
+    color: var(--white);
+    box-shadow: 0px 0px 26.476px rgba(57, 40, 166, 0.747);
+    border: 1px solid rgba(167, 164, 164, 0.623);
+    border-radius: 3.3px;
+    border-radius: 5px;
+    cursor: pointer;
+}

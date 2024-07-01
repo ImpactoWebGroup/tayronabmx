@@ -1,0 +1,49 @@
+.inscribeteWelcome {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+    text-align: center;
+    gap: 30px;
+    margin-bottom: 25px;
+}
+.inscribeteWelcome--content {
+    width: 45%;
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+.inscribeteWelcome--content h1 {
+    color: var(--orange);
+    font-size: 4rem;
+    font-weight: bold;
+    text-align: center;
+}
+.inscribeteWelcome--content p, .inscribeteWelcome--final {
+    color: var(--dark);
+    font-size: 2.2rem;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+.inscribeteWelcome--content button {
+    padding: 10px 15px;
+    background-color: var(--orange);
+    border: none;
+}
+.inscribeteWelcome--content button p {
+    color: var(--white);
+    margin: 0;
+}
+.inscribeteWelcome img {
+    width: 45%;
+    min-width: 300px;
+    max-width: 550px;
+    border-radius: 5px;
+    -webkit-box-shadow: inset -1px 3px 8px 5px #c42c2793, 2px 5px 16px 0px #d9221cb4, 0px 0px 15px 5px rgba(202, 66, 41, 0.17);
+    box-shadow: inset -1px 3px 8px 5px #c42c2793, 2px 5px 16px 0px #d9221cb4, 0px 0px 15px 5px rgba(202, 66, 41, 0.17);
+}

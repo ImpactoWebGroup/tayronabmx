@@ -1,0 +1,50 @@
+.norma {
+    max-width: 1024px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 35px;
+    margin: 50px auto;
+    padding: 25px;
+}
+
+.norma--content {
+    order: 2;
+    min-width: 320px;
+    max-width: 456px;
+    width: 100%;
+    max-height: 265px;
+    height: auto;
+    padding: 60px;
+    background-color: var(--white);
+    box-shadow: 0px 0px 26.476px rgba(57, 40, 166, 0.15);
+    border-radius: 3.30951px;
+}
+.norma--content h3 {
+    font-size: 3.9rem;
+    font-weight: bold;
+}
+.norma--content p {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.norma img {
+    max-width: 400px;
+    width: 100%;
+    max-height: 275px;
+    object-fit: cover;
+    box-shadow: 0px 0px 26.476px rgba(57, 40, 166, 0.15);
+    border-radius: 3.30951px;
+}
+.norma--blue > * {
+    order: 0;
+    color: var(--blue);
+}
+.norma--blue {
+    color: var(--blue);
+}
+.norma--red {
+    color: var(--redWine);
+}

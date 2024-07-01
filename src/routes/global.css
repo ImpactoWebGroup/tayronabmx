@@ -1,0 +1,121 @@
+/* Globals Styles */
+:root {
+    --white: #ffffff;
+    --dark: #262C2F;
+    --orange: #D9231C;;
+    --blue: #2E2868;
+    --redWine: #7B2646;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+    font-family: 'Poppins', sans-serif;
+    text-align: justify;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    overflow-x: hidden;
+    background-color: var(--white);
+    margin: 0 auto;
+}
+h1 {
+    font-size: 3.2rem;
+    color: var(--dark);
+    text-transform: uppercase;
+}
+h2 {
+    text-transform: uppercase;
+}
+
+.fundacion--conainter {
+    /* height: 100vh; */
+}
+.fundacion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
+header nav.none {
+    display: none;
+}
+
+.button--WhatsApp {
+    position: fixed;
+    top: calc(100% - 100px);
+    left: calc(100% - 100px);
+    z-index: 5;
+    padding: 15px;
+    background-color: #3acd47;
+    background-image: linear-gradient(0deg, #3acd47 0%, #58f474 100%);
+    border-radius: 50%;
+    -webkit-box-shadow: 5px 5px 25px 0px rgb(0 0 0 / 49%);
+    -moz-box-shadow: 5px 5px 25px 0px rgba(0,0,0,0.49);
+    box-shadow: 5px 5px 25px 0px rgb(0 0 0 / 49%);
+}
+.button--WhatsApp span svg {
+    color: var(--white);
+    width: 50px;
+    height: 50px;
+}
+
+.acumuladoPdf {
+    display: flex;
+    gap: 5px;
+    margin: 0 auto;
+    padding: 15px 5px;
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--blue);
+    background-color: var(--white);
+    text-decoration: none;
+    border-radius: 15px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.466);
+}
+.acumuladoPdf svg {
+    font-size: 3rem;
+
+}
+.buttonPdf {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 35px 5px;
+    margin-top: 50px;
+    background-color: var(--blue);
+    text-align: center;
+    border-radius: 15px;
+}
+
+.none {
+    display: none;
+}
+
+.background {
+    background-image: url(../assets//images/Background1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.background2 {
+    background-image: url(../assets//images/Background2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.background3 {
+    background-image: url(../assets//images/Background3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}

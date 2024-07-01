@@ -1,0 +1,48 @@
+.competitor {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 5px;
+    background-color: var(--white);
+    cursor: pointer;
+}
+.competitor p {
+    width: 50px;
+    color: #334155;
+    font-size: 1rem;
+    text-align: center;
+}
+.competitor div {
+    width: 85px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.competitorActive {
+    background-color: rgba(46, 40, 104, 0.9);
+    border: 1px solid rgba(93, 86, 153, 0.329);
+}
+.competitorActive p {
+    color: var(--white);
+}
+
+
+.competitor div.compeNone {
+    display: none;
+}
+div.compe--fix {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 30px;
+    background-color: var(--white);
+    z-index: 7;
+}

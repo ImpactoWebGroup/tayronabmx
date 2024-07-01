@@ -1,0 +1,41 @@
+.calendario--content .carousel .carousel--image img {
+    width: 100%;
+    max-width: 650px;
+    border-radius: 26px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.calendario--content .carousel-slider .control-arrow {
+    background-color: var(--white);
+    top: 46%;
+    bottom: 46%;
+    border-radius: 50%;
+    margin: 0 10px;
+    padding: 0;
+    box-shadow: 0px 4px 20px rgb(0 0 0 / 75%);
+}
+.calendario--content .carousel-slider .control-arrow:focus {
+    background-color: var(--white);
+}
+.calendario--content .carousel-slider .control-arrow:hover {
+    background-color: var(--white);
+    border-radius: 50%;
+    animation:jello-horizontal .9s both;
+}
+.calendario--content .control-next.control-arrow:before {
+    border-left: 15px solid var(--blue);
+    margin: 5px 18px 0 21px;
+}
+.calendario--content .control-prev.control-arrow:before {
+    margin: 5px 22px 0 17px;
+    border-right: 15px solid var(--blue);
+}
+.calendario--content .control-arrow:before, .carousel.carousel-slider .control-arrow:before {
+    display: inline-block;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    content: '';
+}

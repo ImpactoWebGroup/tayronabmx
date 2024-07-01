@@ -1,0 +1,24 @@
+.ranking {
+        width: 100%;
+        max-width: 1024px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 15px;
+        padding: 25px;
+        margin: 0 auto;
+}
+.ranking img {
+        min-width: 300px;
+        width: 30%;
+        margin: 0 auto;
+}
+.ranking .ranking--foto {
+        min-width: 350px;
+        width: 40%;
+        margin: 0 auto;
+        border-radius: 10px;
+        -webkit-box-shadow: inset -1px 3px 8px 5px #2E2868, 2px 5px 16px 0px #201a53bb, 0px 0px 15px 5px rgba(46,40,104,0.17);
+        box-shadow: inset -1px 3px 8px 5px #2E2868, 2px 5px 16px 0px #201a53bb, 0px 0px 15px 5px rgba(46,40,104,0.17);
+}

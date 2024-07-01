@@ -1,0 +1,26 @@
+.member {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    margin: 0 auto;
+}
+.member img {
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.member p {
+    color: var(--white);
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+p.member__descrip {
+    font-size: 1.2rem;
+    font-weight: normal;
+    color: var(--white);
+    text-align: justify;
+}

@@ -1,0 +1,22 @@
+.calendarWelcome {
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    padding: 25px;
+}
+.calendarWelcome h1 {
+    max-width: 350px;
+    color: var(--blue);
+    font-size: 4rem;
+    font-weight: bold;
+    text-align: center;
+}
+.calendarWelcome img {
+    width: 40%;
+    min-width: 300px;
+}

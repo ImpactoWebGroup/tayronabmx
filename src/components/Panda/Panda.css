@@ -1,0 +1,43 @@
+.panda--container {
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    flex-wrap: wrap; */
+}
+.panda {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    text-align: left;
+}
+.panda img {
+    width: 150px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50px;
+}
+.panda h3 {
+    color: var(--white);
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-align: center;
+}
+.panda--content {
+    max-width: 210px;
+}
+.panda .panda--content span p {
+    color: #0e0938;
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-align: center;
+    background-color: var(--white);
+    border-radius: 10px;
+}
+.panda p {
+    min-width: 200px;
+    color: var(--white);
+    font-size: 1.4rem;
+}

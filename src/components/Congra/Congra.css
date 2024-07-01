@@ -1,0 +1,39 @@
+.congra {
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    padding: 25px;
+    margin: 75px auto 0 auto;
+    text-align: center;
+}
+.congra h2 {
+    color: var(--blue);
+    font-size: 4rem;
+    font-weight: bold;
+}
+.congra p {
+    color: var(--blue);
+    font-size: 1.8rem;
+    margin-bottom: 25px;
+}
+#app .congra .carousel-root {
+    max-width: 100%;
+    width: 420px !important;
+    object-fit: cover;
+}
+#app .congra .carousel {
+    max-width: 100%;
+    width: 420px !important;
+    object-fit: cover;
+}
+#app .congra .carousel .slide img {
+    max-width: 100%;
+    max-height: 375px;
+    height: 375px;
+    width: 420px !important;
+    object-fit: cover;
+}

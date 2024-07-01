@@ -1,0 +1,27 @@
+.noticiasSection {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.noticiasSection .categoria {
+    width: 150px;
+    margin-top: 30px;
+}
+.noticiasSection h2 {
+    color: var(--blue);
+    font-size: 3.9rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 25px;
+}
+.noticiasSection .noticias--container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 35px;
+}

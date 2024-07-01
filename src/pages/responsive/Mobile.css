@@ -1,0 +1,121 @@
+@media (max-width: 503px) {
+
+    /* Carrusel Home Styles */
+    #app .carouselHome .carousel--image img {
+        height: 40vh;
+    }
+
+    /* Home Styles */
+    div.carousel--image h2 {
+        padding: 5px 10px;
+        font-size: 1.5rem;
+    }
+    section.participa h2 {
+        font-size: 2.5rem;
+    }
+    div.testimony p {
+        text-align: justify;
+    }
+
+    /* NOSOTROS Styles */
+    #app .valueImage {
+        flex-direction: column;
+    }
+    #app .valueImage img {
+        width: 100%;
+        /* min-width: 320px; */
+        max-width: 100%;
+        height: 150px;
+        object-fit: cover;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+        cursor: pointer;
+        animation: scale-down-center2 .4s cubic-bezier(.25,.46,.45,.94) both;
+        transition: all .4s;
+    }
+
+    /* Noticias Styles */
+    div.congraBox h3 {
+        color: var(--blue);
+        font-size: 3rem;
+        font-weight: bold;
+    }
+
+    /* #app.newsPaper .none {
+        display: none;
+    }
+    #app .newsPaper--big img {
+        width: 100vh;
+        max-height: 100vw;
+        transform: rotate(90deg);
+    } */
+
+    /* Resultados Styles */
+    section.resultado {
+        gap: 0px;
+    }
+    div.resultado--table {
+        transform: scale(0.66);
+    }
+    section.resultado div.acumulado--categories {
+        transform: scale(0.8);
+    }
+    section.resultado .counterPages {
+        transform: scale(0.8);
+    }
+
+    /* Acumulado Styles */
+    div.tableAcumulado {
+        transform: scale(0.66);
+    }
+    section.acumulado div.acumulado--categories {
+        transform: scale(0.8);
+    }
+    section.acumulado .counterPages {
+        transform: scale(0.8);
+    }
+
+    /* Normas Styles */
+    div.normasWelcome--content h2 {
+        font-size: 2rem;
+    }
+    div.normasWelcome--content p {
+        font-size: 1.5rem;
+    }
+
+    /* Calendarios Styles */
+    section.calendarWelcome h1 {
+        font-size: 2.5rem;
+    }
+    section.calendario h2 {
+        font-size: 2.5rem;
+    }
+    /* Inscribete Styles */
+    #app .inscribeteWelcome--content h1 {
+        font-size: 3rem;
+    }
+
+
+    /* HEADER MOBILE FUNDACIÓN */
+    #app header.headerFundacion {
+        display: none;
+    }
+    #app header.headerFundacionMobile {
+        display: flex;
+    }
+
+
+    /* DONACIÓN BOBILE FUNDACIÓN */
+    #app .donaciones h2 {
+        font-size: 2rem;
+    }
+    #app .dona h2 {
+        font-size: 1.5rem;
+    }
+    #app .donacion {
+        padding: 0px;
+    }
+
+}

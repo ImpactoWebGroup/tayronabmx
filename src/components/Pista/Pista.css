@@ -1,0 +1,43 @@
+.pista {
+    position: relative;
+    max-width: 1024px;
+    margin: 100px auto;
+    box-shadow: inset 0px 0px 20px rgba(0, 0, 0, 0.79);
+}
+.pista img {
+    width: 100%;
+    max-width: 1024px;
+}
+.pista--content {
+    position: absolute;
+    bottom: 1px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    background-color: var(--blue);
+    opacity: 0.7;
+    padding: 25px 20%;
+}
+.pista--content a {
+    padding: 2px 10px;
+    color: var(--blue);
+    background-color: var(--white);
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+    z-index: 5;
+    cursor: pointer;
+}
+.pista--content p {
+    padding: 5px 15px;
+    color: var(--white);
+    font-size: 1rem;
+    z-index: 5;
+}
+
+div.nonePista {
+    display: none;
+}

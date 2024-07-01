@@ -1,0 +1,11 @@
+.ventas {
+    max-width: 1024px;
+    margin: 75px auto;
+}
+.ventas h2 {
+    margin-bottom: 15px;
+    font-size: 4rem;
+    color: var(--white);
+    font-weight: bold;
+    text-align: center;
+}

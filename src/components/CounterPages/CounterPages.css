@@ -1,0 +1,17 @@
+.counterPages {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+    text-align: center;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.1);
+}
+.counterPages span {
+    color: var(--blue);
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 13px 16px;
+    border-radius: 4px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}

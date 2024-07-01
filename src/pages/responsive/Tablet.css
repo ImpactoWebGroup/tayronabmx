@@ -1,0 +1,38 @@
+@media (max-width: 768px) {
+
+    /* Carrusel Home Styles */
+    #app .carouselHome .carousel--image img {
+        height: 50vh;
+    }
+
+    /* Header */
+    #app .header--menu {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #app .mobile {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #app .headerUp {
+        display: none;
+    }
+
+    /* Normas Styles */
+    div.norma img {
+        order: 2;
+    }
+    .norma--content {
+        order: 1;
+    }
+    div.manual a {
+        margin: 0 auto;
+    }
+
+    /* Nostros Styles */
+    .misionYVision .misionYVision--content {
+        text-align: justify;
+    }
+}

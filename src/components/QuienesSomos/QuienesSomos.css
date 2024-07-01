@@ -1,0 +1,33 @@
+.quienesSomos {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+}
+.quienesSomos img {
+    width: 100%;
+    max-width: 750px;
+}
+.quienesSomos--content {
+    width: 100%;
+    max-width: 750px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 25px;
+    padding: 25px;
+}
+.quienesSomos--content h1 {
+    color: var(--blue);
+    font-size: 3.9rem;
+    font-weight: bold;
+    text-align: center;
+}
+.quienesSomos--content p {
+    color: var(--blue);
+    font-size: 1.5rem;
+    font-weight: lighter;
+    text-align: justify;
+}

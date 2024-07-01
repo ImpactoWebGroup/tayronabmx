@@ -1,0 +1,32 @@
+.normasWelcome {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+    gap: 25px;
+}
+.normasWelcome img {
+    min-width: 300px;
+    max-width: 550px;
+    width: 44%;
+}
+.normasWelcome--content {
+    min-width: 300px;
+    width: 44%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    text-align: center;
+}
+.normasWelcome--content h2 {
+    color: var(--blue);
+    font-size: 3.9rem;
+    font-weight: bold;
+}
+.normasWelcome--content p {
+    color: var(--blue);
+    font-size: 2rem;
+}

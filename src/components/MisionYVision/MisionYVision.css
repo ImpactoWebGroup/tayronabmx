@@ -1,0 +1,46 @@
+.misionYVision {
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto;
+}
+.misionYVision--content {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.misionYVision--content img {
+    width: 50%;
+    min-width: 300px;
+}
+.misionYVision--content__text {
+    width: 50%;
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+.misionYVision--content__text h2 {
+    font-size: 5rem;
+    font-weight: bold;
+}
+.misionYVision--content__text p {
+    font-size: 1.8rem;
+    font-weight: lighter;
+}
+.mision {
+    color: var(--orange);
+    text-align: right;
+}
+.vision {
+    color: var(--blue);
+    text-align: left;
+    flex-wrap: wrap-reverse;
+}

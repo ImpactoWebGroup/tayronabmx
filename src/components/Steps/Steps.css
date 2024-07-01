@@ -1,0 +1,24 @@
+.steps {
+    min-width: 300px;
+    max-width: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin: 0px auto;
+}
+.steps h2 {
+    margin-top: 45px;
+    color: var(--orange);
+    font-size: 4rem;
+    font-weight: bold;
+}
+.steps--content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}

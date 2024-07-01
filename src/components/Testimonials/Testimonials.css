@@ -1,0 +1,51 @@
+.testimonials {
+    width: 100%;
+    margin-top: 50px;
+}
+.testimonials .control-next.control-arrow:focus {
+    filter: drop-shadow(0px 4px 4px rgba(255, 255, 255, 0));
+}
+.testimonials .control-next.control-arrow:before {
+    content: '';
+    background-image: url(../../assets/images/circle-arrow-right-solid.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: inline-block;
+    padding: 30px;
+    border-radius: 50%;
+    filter: drop-shadow(0px 4px 4px rgba(255, 255, 255, 0.25));
+    margin-bottom: 50px;
+}
+
+.testimonials .control-prev.control-arrow:before {
+    content: '';
+    background-image: url(../../assets/images/circle-arrow-left-solid.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: inline-block;
+    padding: 30px;
+    border-radius: 50%;
+    background-color: #ffffff00;
+}
+
+#app .testimonials .carousel-slider .control-arrow:focus {
+    filter: drop-shadow(0px 4px 4px rgba(255, 255, 255, 0.25)) ;
+}
+.testimonials .carousel-slider .control-arrow:hover {
+    animation:jello-horizontal .9s both;
+}
+.testimonials .control-next.control-arrow:before {
+    margin: 5px 18px 0 21px;
+}
+.testimonials .control-prev.control-arrow:before {
+    margin: 5px 22px 0 17px;
+}
+.testimonials .control-arrow:before, .carousel.carousel-slider .control-arrow:before {
+    display: inline-block;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    content: '';
+    margin-bottom: 300px;
+}

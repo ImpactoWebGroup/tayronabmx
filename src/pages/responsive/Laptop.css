@@ -1,0 +1,32 @@
+@media (max-width: 1024px) {
+
+    /* Carrusel Home Styles */
+    #app .carouselHome .carousel--image img {
+        height: 65vh;
+    }
+
+    /* Resultados Styles */
+    div.resultado--table {
+        transform: scale(1);
+    }
+    section.resultado .acumulado--categories {
+        transform: scale(1);
+    }
+    section.resultado .counterPages {
+        transform: scale(1);
+    }
+
+    /* Acumulado Styles */
+    section.acumulado {
+        gap: 25px;
+    }
+    section.acumulado div.tableAcumulado {
+        transform: scale(1);
+    }
+    section.acumulado div.acumulado--categories {
+        transform: scale(1);
+    }
+    section.acumulado .counterPages {
+        transform: scale(1);
+    }
+}

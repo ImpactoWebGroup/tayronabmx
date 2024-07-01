@@ -1,0 +1,35 @@
+.carouselHome .carousel--image {
+    position: relative;
+    text-align: center;
+}
+.carouselHome .carousel--image img {
+    height: 76vh;
+    width: auto !important;
+    max-width: 100%;
+    min-width: 200px;
+    object-fit: cover;
+    object-position: center;
+}
+/* .carouselHome .carousel--image a {
+    position: absolute;
+    bottom: 25px;
+    right: 0;
+    padding: 5px 10px;
+    font-size: 1.5rem;
+    color: var(--white);
+    background-color: var(--blue);
+    text-decoration: none;
+} */
+.carousel--image a {
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px 15px;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+    background-color: #2e2868af;
+    color: var(--white);
+    text-decoration: none;
+}

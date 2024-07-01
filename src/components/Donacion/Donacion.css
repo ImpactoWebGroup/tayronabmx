@@ -1,0 +1,84 @@
+.dona  {
+    position: relative;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 50px 35px;
+}
+.dona::before {
+    content: "";
+    background-image: url(../../assets//images/image0.jpeg);
+    background-repeat: none;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.8;
+}
+.donaciones h2 {
+    position: relative;
+    text-align: center;
+    font-size: 5rem;
+    color: var(--blue);
+    padding: 25px;
+}
+.dona h2 {
+    position: relative;
+    text-align: center;
+    font-size: 3rem;
+    color: var(--white);
+}
+.donacion {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    background-color: var(--white);
+    padding: 50px;
+    border-radius: 25px;
+    box-shadow: 0px 0px 26.476px #757575a2;
+}
+.donacion--buttonsContainer {
+    display: flex;
+    gap: 15px;
+}
+.donacion--montoContainer {
+    display: flex;
+}
+.donacion h2 {
+    text-align: center;
+    font-size: 3rem;
+    color: var(--blue);
+}
+.dona p {
+    text-align: center;
+    font-size: 3rem;
+    color: var(--blue);
+}
+.donacion--montoContainer .DonacionButton button {
+    background-color: var(--orange);
+    box-shadow: 0px 0px 26.476px #d9221ca2;
+    border: 1px solid #d9221ca2;
+    border-radius: 2px;
+}
+.donacion--montoContainer__input {
+    padding: 15px 15px;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: var(--white);
+    color: var(--orange);
+    box-shadow: 0px 0px 26.476px #d9221ca2;
+    border: 1px solid #d9221ca2;
+    border-radius: 3.3px;
+    border-radius: 2px;
+    cursor: pointer;
+}
